@@ -1,0 +1,232 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+    margin:0;
+    padding:0;
+}
+.wrapper1 {
+    // border: 3px solid #21a8cd;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.space1-1 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#00B0F0;
+    margin-bottom:20px;
+}
+.space1-2 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#00FA00;
+    margin-bottom:20px;
+}
+.space1-3 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#FFFF00;
+    margin-bottom:20px;
+}
+.space1-4 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#FF0000;
+}
+.space1-5 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#FFC000;
+}
+.space1-6 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#7030A0;
+}
+.sample {
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    color:white;
+    padding:30px;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+}
+.sample2 {
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    color:white;
+    padding:30px;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+}
+.wrapper2 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.space2-1 {
+    box-sizing: border-box;
+    width: 47.5%;
+    border-radius:10px;
+    text-align:center;
+    background:#FF2F92;
+}
+.space2-2 {
+    box-sizing: border-box;
+    width: 47.5%;
+    border-radius:10px;
+    background:#A9A9A9;
+    text-align:center;
+}
+.wrapper_admin_1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.space_admin_1,.space_admin_2,.space_admin_3 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background: linear-gradient(#05FBFF, #1D62F0 ) fixed;
+}
+.sample_admin_1 {
+    font-size:26px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    color:black;
+    padding:35px 0;
+}
+.wrapper_outside {
+    border:solid 3px #33ccff;
+    border-radius:10px;
+    margin-top:20px;
+}
+.app_title h1 {
+    font-size:22px;
+    text-align:center;
+    border-bottom:solid 1px #3300cc;
+    width:100%;
+    margin:0px;
+    padding:12px 0px;
+}
+.corporation_name h2 {
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    border-bottom:solid 1px #3300cc;
+    width:100%;
+    margin:0px;
+    padding:15px 0px;
+}
+.btn_position {
+    text-align:right;
+    margin-top:10px;
+}
+.red {
+    color:red;
+}
+.day_time_wrapper {
+    display:flex;
+}
+.going_to_work_message {
+    text-align:center;
+    font-size:30px;
+}
+.sample_fierd_work_1 {
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    color:black;
+}
+.wrapper_fierd_work_1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.space_fierd_work_1 {
+    box-sizing: border-box;
+    width: 47.5%;
+    border-radius:10px;
+    text-align:center;
+    background:linear-gradient(#05FBFF, #1D62F0) fixed;
+    padding:30px;
+}
+.sample_move_1 {
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    color:black;
+}
+.wrapper_move_1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.space_move_1 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#00FA00;
+    padding:57px 30px;
+}
+.space_move_2 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:#FF0000;
+    padding:57px 30px;
+}
+.space_move_3 {
+    box-sizing: border-box;
+    width: 30%;
+    border-radius:10px;
+    text-align:center;
+    background:white;
+    padding:39px 30px;
+}
+.sample_move_2 {
+    font-size:60px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    color:black;
+}
+.btn {
+        padding: 15px 65px;
+}
+.checkbox_inline {
+    
+}
