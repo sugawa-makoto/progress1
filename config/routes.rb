@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :employees
     root to:"users#index"
     get "/going_to_work", to:"users#going_to_work"
     get "/fierd_work", to:"users#fierd_work"
@@ -10,4 +9,5 @@ Rails.application.routes.draw do
     get "/new", to:"users#new"
     post "/create", to:"users#create"
     post "/create_move", to:"users#create_move"
+    get 'login', to: 'employees#login_page'
 end
